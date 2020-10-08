@@ -1,8 +1,9 @@
 class User
 
-  attr_accessor :name
+  attr_accessor :first_name, :last_name
 
-  initialize(name)
-    @name = first_name
+  initialize
+    @first_name = first_name
     @last_name = last_name
   end
+end 
