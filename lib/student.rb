@@ -5,7 +5,7 @@ def new
 end
 
 def learn(arg)
-  knowledge << "arg"
+  knowledge << "arg" if learn.is_a? String
 end
 
 def knowledge
