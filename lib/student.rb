@@ -1,12 +1,9 @@
 class Student < User
 
-def new
-  knowledge = []
-end
+@knowlegde = []
 
 def learn(arg)
-  knowledge << "arg" if learn.is_a? String
-end
+  @knowledge << "arg"
 
 def knowledge
   knowledge
