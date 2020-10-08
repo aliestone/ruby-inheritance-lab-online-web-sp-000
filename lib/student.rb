@@ -9,7 +9,7 @@ def learn(arg)
 end
 
 def knowledge
-  @@knowledge
+  knowledge
 end
 
 
