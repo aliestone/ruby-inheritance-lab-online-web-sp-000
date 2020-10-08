@@ -6,7 +6,7 @@ def learn(arg)
   @knowledge << "arg"
 
 def knowledge
-  knowledge
+  @knowledge
 end
 
 end
