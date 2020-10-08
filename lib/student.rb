@@ -5,7 +5,7 @@ def initialize
 end
 
 def learn(arg)
-  @knowledge << "arg"
+  knowledge << "arg"
 end
 
 def knowledge
