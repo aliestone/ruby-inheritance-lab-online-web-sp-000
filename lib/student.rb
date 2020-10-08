@@ -1,9 +1,11 @@
 class Student < User
 
-@@knowledge = []
+def initialize
+  knowledge = []
+end
 
 def learn(arg)
-  @@knowledge << "arg"
+  @knowledge << "arg"
 end
 
 def knowledge
